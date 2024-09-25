@@ -79,3 +79,6 @@ Two possible causes of this are having the snap package for Flutter installed, o
 First, uninstall the Flutter snap package and remove the dart-sdk build directory at `dart-sdk/sdk/out` and attempt to rebuild Dart.
 
 If that doesn't work, put `depot_tools` at the front of your path, instead of at the end. Clean the dart-sdk build directory, then attempt a rebuild.
+
+
+运行dart
